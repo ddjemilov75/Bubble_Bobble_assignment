@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cs4f6rvsh3jgu"]
+
+[ext_resource type="Texture2D" uid="uid://ck0cqxpdtsehv" path="res://assets/orb4.png" id="1_2vdav"]
+[ext_resource type="Script" uid="uid://hbuti573khso" path="res://scripts/bubble.gd" id="1_pm753"]
+[ext_resource type="PackedScene" uid="uid://dogc6kaemdcut" path="res://scenes/trapped_bubble.tscn" id="2_b4vvx"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pm753"]
+radius = 35.057095
+
+[node name="Area2D" type="Area2D"]
+process_mode = 1
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_pm753")
+trapped_bubble_scene = ExtResource("2_b4vvx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pm753")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2vdav")
+
+[node name="LifetimeTimer" type="Timer" parent="."]
+wait_time = 4.0
+one_shot = true

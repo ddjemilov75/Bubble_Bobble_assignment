@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://muraclhhdavo"]
+
+[ext_resource type="Script" uid="uid://g0jbfnw4jwj3" path="res://scripts/pause_menu.gd" id="1_g4jo0"]
+[ext_resource type="Texture2D" uid="uid://dst1i04we4xc2" path="res://assets/title.png" id="1_jvnd5"]
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_g4jo0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(576, 325)
+scale = Vector2(1.4325, 1.3458333)
+texture = ExtResource("1_jvnd5")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 530.0
+offset_top = 349.0
+offset_right = 587.0
+offset_bottom = 372.0
+text = "Paused"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 472.0
+offset_top = 422.0
+offset_right = 649.0
+offset_bottom = 445.0
+text = "Press SPACE to resume"
