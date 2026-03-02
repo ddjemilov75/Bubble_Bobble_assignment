@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dogc6kaemdcut"]
+[gd_scene load_steps=5 format=3 uid="uid://dogc6kaemdcut"]
 
-[ext_resource type="Texture2D" uid="uid://baauvoak2tl7e" path="res://assets/trap00.png" id="1_18cfj"]
 [ext_resource type="Script" uid="uid://drnlqeeytf8g4" path="res://scripts/trapped_bubble.gd" id="1_r7j5j"]
+[ext_resource type="Texture2D" uid="uid://dda54tp0e0mc" path="res://assets_ai/processed/AI_enemies_no_bg.png" id="2_2086t"]
+[ext_resource type="Texture2D" uid="uid://b8oq5awfl4w6o" path="res://assets_ai/raw/AI_lighning_orb.png" id="3_xsmem"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_r7j5j"]
 radius = 35.510563
@@ -14,4 +15,10 @@ script = ExtResource("1_r7j5j")
 shape = SubResource("CircleShape2D_r7j5j")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_18cfj")
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_2086t")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.3647059)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_xsmem")

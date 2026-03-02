@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://cs4f6rvsh3jgu"]
 
-[ext_resource type="Texture2D" uid="uid://ck0cqxpdtsehv" path="res://assets/orb4.png" id="1_2vdav"]
 [ext_resource type="Script" uid="uid://hbuti573khso" path="res://scripts/bubble.gd" id="1_pm753"]
 [ext_resource type="PackedScene" uid="uid://dogc6kaemdcut" path="res://scenes/trapped_bubble.tscn" id="2_b4vvx"]
+[ext_resource type="Texture2D" uid="uid://b8oq5awfl4w6o" path="res://assets_ai/raw/AI_lighning_orb.png" id="3_b4vvx"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_pm753"]
 radius = 35.057095
@@ -18,7 +18,8 @@ trapped_bubble_scene = ExtResource("2_b4vvx")
 shape = SubResource("CircleShape2D_pm753")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_2vdav")
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("3_b4vvx")
 
 [node name="LifetimeTimer" type="Timer" parent="."]
 wait_time = 4.0

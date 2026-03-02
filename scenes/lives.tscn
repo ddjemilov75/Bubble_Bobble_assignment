@@ -1,22 +1,22 @@
 [gd_scene load_steps=3 format=3 uid="uid://dvvaqyxuonbon"]
 
 [ext_resource type="Script" uid="uid://5ji02t0o07bi" path="res://scripts/lives.gd" id="1_naohr"]
-[ext_resource type="Texture2D" uid="uid://b1x6o88sf0yy1" path="res://assets/health.png" id="2_h857v"]
+[ext_resource type="Texture2D" uid="uid://dl5bre3wn3ovc" path="res://assets_ai/processed/ai_heart_no_bg.png" id="2_naohr"]
 
 [node name="Lives" type="Node2D"]
 script = ExtResource("1_naohr")
 
 [node name="Heart1" type="Sprite2D" parent="."]
-position = Vector2(24, 628)
-texture = ExtResource("2_h857v")
+position = Vector2(24, 600)
+texture = ExtResource("2_naohr")
 
 [node name="Heart2" type="Sprite2D" parent="."]
-position = Vector2(73, 630)
-texture = ExtResource("2_h857v")
+position = Vector2(73, 600)
+texture = ExtResource("2_naohr")
 
 [node name="Heart3" type="Sprite2D" parent="."]
-position = Vector2(120, 631)
-texture = ExtResource("2_h857v")
+position = Vector2(120, 600)
+texture = ExtResource("2_naohr")
 
 [node name="ScoreLabel" type="Label" parent="."]
 offset_right = 40.0

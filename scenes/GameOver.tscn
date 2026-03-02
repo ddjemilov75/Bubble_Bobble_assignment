@@ -1,16 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://dae1slddrnxvn"]
 
-[ext_resource type="Texture2D" uid="uid://g6wpysrlf1y7" path="res://assets/over.png" id="1_6bcno"]
 [ext_resource type="Script" uid="uid://dlnnq5brugcjr" path="res://scripts/game_over.gd" id="1_qae0b"]
+[ext_resource type="Texture2D" uid="uid://j31kuixyq3i4" path="res://assets_ai/raw/AI_game_over.png" id="2_qae0b"]
 
 [node name="GameOver" type="CanvasLayer"]
 process_mode = 3
 script = ExtResource("1_qae0b")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(577.5, 328.5)
-scale = Vector2(1.44875, 1.3854166)
-texture = ExtResource("1_6bcno")
+position = Vector2(576, 259.00003)
+scale = Vector2(0.8, 0.764)
+texture = ExtResource("2_qae0b")
 
 [node name="ScoreLabel" type="Label" parent="."]
 offset_left = 528.0

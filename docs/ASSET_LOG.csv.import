@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://blcpioa7r0ynx"
+valid=false
+
+[deps]
+
+source_file="res://docs/ASSET_LOG.csv"
+
+[params]
+
+compress=true
+delimiter=0

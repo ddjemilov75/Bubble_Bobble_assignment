@@ -1,0 +1,8 @@
+asset_id,type,tool,prompt_summary,iterations, manual_edit_minutes, main_problems, godot_import_notes, final_path
+AI_sprite,sprite_sheet,ChatGPT-5,"Cyborg space cowboy kinda thing",1, 5, "Too large, resized in godot", N/A, "assets_ai/raw"
+AI_enemies_no_bg, sprite_sheet, ChatGPT-5, "cyborg pinkertons", 1, 10, "Too large, resized in godot, removed bg", N/A, "assets_ai/processed"
+ai_tile_pattern (1), tileset, Bing_ChatGPT-4o, "Scifi, metal floor", 1, 5, "Too large, resized in external tool to 25x25", N/A, "assets_ai/processed"
+ai_heart_no_bg, sprite_sheet, Bing_ChatGPT-4o, "pixel heart, scifi metal on one side", 1, 5, "Too large, resized in external tool to 40x40", N/A, "assets_ai/processed"
+Ai_paused_fixed, sprite_sheet, Bing_ChatGPT-4o, "Pause screen with cyborg space cowboy", 2, 5, "Too large, resized in godot", N/A, "assets_ai/raw"
+AI_lightning_orb, sprite_sheet, ChatGPT-5, "Blue circular lightning orb", 1, 5, "Too large, resized in godot", N/A, "assets_ai/raw"
+AI_game_over, sprite_sheet, ChatGPT-5, "Dark with red hue screen, Defeated at the top, player looks defeated", 1, 5, "Too large, resized in godot", N/A, "assets_ai/raw"

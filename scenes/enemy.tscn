@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bk46w2d48j8tm"]
 
-[ext_resource type="Texture2D" uid="uid://cfmcbtwg143pv" path="res://assets/robot000.png" id="1_7p1mj"]
 [ext_resource type="Script" uid="uid://ccgh6y847mnkx" path="res://scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Texture2D" uid="uid://dda54tp0e0mc" path="res://assets_ai/processed/AI_enemies_no_bg.png" id="2_md0e3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_md0e3"]
 size = Vector2(50, 73)
@@ -17,7 +17,9 @@ position = Vector2(0, -1.5)
 shape = SubResource("RectangleShape2D_md0e3")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_7p1mj")
+position = Vector2(-0.99999994, -1.9999999)
+scale = Vector2(0.12, 0.12)
+texture = ExtResource("2_md0e3")
 
 [node name="LedgeDetector" type="RayCast2D" parent="."]
 target_position = Vector2(587, 558)
